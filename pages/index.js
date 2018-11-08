@@ -1,8 +1,7 @@
 import Head from "next/head";
-import withLayout from "../lib/withLayout";
 import PostLink from "../components/PostLink";
 
-const Index = () => (
+export default () => (
   <div>
     <Head>
       <title>Home | Nomad Store</title>
@@ -18,5 +17,3 @@ const Index = () => (
     </ul>
   </div>
 );
-
-export default withLayout(Index);

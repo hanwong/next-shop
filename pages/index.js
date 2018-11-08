@@ -4,7 +4,7 @@ import Axios from "axios";
 
 export default class extends React.Component {
   static async getInitialProps () {
-    const {data: {data: { movies }}} = await Axios.get("https://yts.am/api/v2/list_movies.json");
+    const { data: { data: { movies } } } = await Axios.get("https://yts.am/api/v2/list_movies.json");
     return { movies };
   }
   render () {
@@ -12,7 +12,7 @@ export default class extends React.Component {
     return (
       <div>
         <Head>
-          <title>Home | Nomad Store</title>
+          <title>Home | Test Shop</title>
         </Head>
         <h1>Posts:</h1>
         <ul>

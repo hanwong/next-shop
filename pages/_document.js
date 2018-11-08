@@ -9,7 +9,7 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
-          <title>Nomad Store</title>
+          <title>Test Shop</title>
           <meta name="author" content={"HanWoong Kim"} />
         </Head>
         <body>

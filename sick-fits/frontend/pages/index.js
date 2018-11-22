@@ -1,0 +1,7 @@
+const Home =_=> (
+  <div>
+    <p>Home!</p>
+  </div>
+)
+
+export default Home;

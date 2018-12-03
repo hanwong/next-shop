@@ -1,6 +1,8 @@
+import Items from '../components/Items';
+
 const Home =_=> (
   <div>
-    <p>Home!</p>
+    <Items />
   </div>
 )
 

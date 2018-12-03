@@ -3,8 +3,8 @@ import NavStyles from './styles/NavStyles';
 
 const Nav =_=> (
   <NavStyles>
-    <Link href="/items">
-      <a>Items</a>
+    <Link href="/">
+      <a>Shop</a>
     </Link>
     <Link href="/sell">
       <a>Sell</a>

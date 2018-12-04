@@ -1,9 +1,9 @@
-import Items from '../components/Items';
+import SingleItem from '../components/SingleItem';
 
-const Home =_=> (
+const Item = props => (
   <div>
-    <Items />
+    <SingleItem id={props.query.id} />
   </div>
-)
+);
 
-export default Home;
+export default Item;
